@@ -3,7 +3,7 @@ import MyPortfolioHeading from "../MyPortfolioHeading/MyPortfolioHeading";
 
 export default function MyPortfolio(){
     return(
-        <>
+        <section>
         <MyPortfolioHeading/>
 
        <div className="flex justify-around">
@@ -18,6 +18,6 @@ export default function MyPortfolio(){
        </div>
 
 
-        </>
+        </section>
     )
 }

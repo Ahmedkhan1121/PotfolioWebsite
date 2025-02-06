@@ -22,10 +22,7 @@ export default function Home() {
       <MySkillpage/>
       </section>
     
-    {/* {my About} */}
-    <section>
-      <AboutPage/>
-    </section>
+    
 
     {/* myMyPortfolio */}
     <section>

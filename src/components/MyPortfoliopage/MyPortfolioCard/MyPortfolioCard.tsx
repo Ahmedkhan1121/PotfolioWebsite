@@ -1,6 +1,6 @@
 export default function MyPortfolioCard(props:{h1:string}){
     return(
-        <>
+        
    
      <div className=" mt-[70px] mb-[84px]  w-[300px] shadow-lg">
             <img className="" src="/images/potfolioimg/Image.png" alt="" />
@@ -12,6 +12,5 @@ export default function MyPortfolioCard(props:{h1:string}){
             </div>
         </div>
      
-        </>
     )
 }

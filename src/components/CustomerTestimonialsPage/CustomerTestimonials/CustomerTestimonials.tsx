@@ -3,8 +3,9 @@ import Heading from "../Heading/Heading";
 
 export default function CustomerTestimonials(){
     return(
-        <>
-        <div className="">
+        <section className=" pt-[90px] pb-[140px]   bg-[#F5FCFF]">
+
+        <div>
         <Heading/>
         
         {/* card */}
@@ -28,10 +29,8 @@ export default function CustomerTestimonials(){
         p="McDonald's"
         />
         </div>
-        
-
-        
+                
         </div>
-        </>
+        </section>
     )
 }

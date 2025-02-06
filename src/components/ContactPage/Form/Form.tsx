@@ -31,7 +31,7 @@ export default function Form(){
             <div className="flex flex-col ">
             <label className="pt-2 pb-2" htmlFor="choose the topic">choose the topic</label>
             <select className="outline-none border-[#613cf8] border-[1px] rounded-md w-[620px] pt-3 " name="" id="select"> 
-                <option value="select one..." selected >select one...</option>
+                <option value="select one..."  >select one...</option>
                 <option value="BlockChain">BlockChain</option>
                 <option value="Ai">Ai</option>
                 <option value="python">python</option>
@@ -42,15 +42,15 @@ export default function Form(){
         <div>
              <div className="flex flex-col ">
             <label className=" pt-2 pb-2" htmlFor="choose the topic">Message</label>
-            <textarea className="outline-none border-[#613cf8] border-[1px] rounded-md w-[620px] pt-2"  name="" id="" rows={5}>Type your Message...</textarea>
+            <textarea className="outline-none border-[#613cf8] border-[1px] rounded-md w-[620px] pt-2"  name="" id="" rows={5} placeholder="Type your Message..."></textarea>
             </div>
         </div>
         {/* I accept the terms */}
         
         <div className="relative -left-56 pt-4">
             <div >
-                <input type="checkbox" />
-                <label className=" pl-2"  htmlFor="">I accept the terms</label>
+                <input type="checkbox"  id="checkbox"/>
+                <label  className=" pl-2"  htmlFor="checkbox">I accept the terms</label>
             </div>
         </div>
 
